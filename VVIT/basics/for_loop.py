@@ -6,8 +6,15 @@ stop= +ve generally, -ve only if start point is lesser than stop point
 step= +ve when start is lesser than stop
         -ve when start is greater than stop
 '''    
-for x in range(5, -1, -1):
-    print("*"*x)
+for x in range(8):
+    
+    if x%2 == 0:
+        print(x*2)
+        continue
+    else:
+        print(x)
+        
+    
     
 print("Execution completed")
 '''
@@ -49,6 +56,12 @@ A
 A B
 A B C
 A B C D
+A B C D E
+
+A
+A B
+A   C
+A     D
 A B C D E
 
 ******
